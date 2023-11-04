@@ -22,8 +22,10 @@
                             <li><a class="dropdown-item" href="huisjes.php?cottageID=<?php echo $cottage["cottage_id"];?>"><?php echo $cottage["cottage_name"];?></a></li>
                             <!--gebruik jij niet de naam $cottage in je foreach loop pas de code op regel 22 dan aan! -->
                         <?php
-                         } //end foreachloop alvast voor je neergezet ?>
+                         } 
+                         //end foreachloop alvast voor je neergezet ?>  
                         </ul>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="info.php">info</a></li>
                 </li>
       </ul>
     </header>
