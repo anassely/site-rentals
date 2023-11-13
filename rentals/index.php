@@ -5,7 +5,6 @@ include 'header.php';
 include 'includes/filter.php';
 
 // Achtergrondafbeelding variabele
-$backgroundImage = 'airbnb.jpg';
 ?>
 
 <!DOCTYPE html>
@@ -13,20 +12,20 @@ $backgroundImage = 'airbnb.jpg';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
     <style>
         body {
-           background-image: url('airbnb.jpg');
+           background-image: url(“airbnb.jpg”);
+            }
             background-size: cover; /* Om de achtergrondafbeelding volledig te bedekken /
             background-repeat: no-repeat; / Voorkomt herhaling van de achtergrondafbeelding /
             background-attachment: fixed; / Behoudt de achtergrond op zijn plaats tijdens het scrollen /
             / Andere CSS-stijlen hier... */
-        }
+        
     </style>
     <!-- Andere meta tags, links, scripts... -->
 </head>
 <body>
-
+<body style='background-image: url("airbnb.jpg")'>
 <section>
     <div class="container mt-4">
         <div class="row">
@@ -71,7 +70,7 @@ $backgroundImage = 'airbnb.jpg';
                                     <li class="list-group-item">Prijs voor volwassenen: €<?= $cottage['cottage_price_a']; ?></li>
                                     <li class="list-group-item">Prijs voor kinderen: €<?= $cottage['cottage_price_c']; ?></li>
                                 </ul>
-                                <a href="huisjes.php?cottageID=<?= $cottage['cottage_id']; ?>" class="btn btn-secondary mt-2">Lees meer...</a>
+                                <a href="huisjes.php?cottageID=<?= $cottage['cottage_id']; ?>" class="btn btn-secondary mt-2">meer info...</a>
                             </div>
                         </div>
                     </div>
