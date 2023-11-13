@@ -13,8 +13,10 @@
     <p class="lead">
         Bij Jansen Rental bieden we een breed scala aan accommodaties voor jouw volgende reisavontuur. Of je nu op zoek bent naar een gezellig appartement, een luxueuze villa, een charmante hut in de bergen of een strandbungalow, wij hebben de perfecte plek voor jou. Blader door onze selectie en ontdek de mogelijkheden voor jouw droomvakantie.
     </p>
+    <h2>Onze Vakantiehuizen</h2>
+    <p>Ontdek onze uitgelezen selectie van vakantiehuizen, speciaal voor jou. Of je nu op zoek bent naar een romantisch uitje, een avontuurlijke reis, of gewoon even wilt ontspannen, we hebben de perfecte accommodatie voor je.</p>
 
-    <h2>Waarom Kiezen voor Jansen Rental?</h2>
+    <h3>Waarom Kiezen voor Jansen Rental?</h3>
     <ul class="list-group">
         <li class="list-group-item">Ruime keuze aan accommodaties in verschillende bestemmingen wereldwijd.</li>
         <li class="list-group-item">Betrouwbare reserveringsdiensten met eerlijke prijzen.</li>
@@ -28,6 +30,8 @@
     <ul class="list-group">
         <li class="list-group-item">Telefoon: +31-123-456-789</li>
         <li class="list-group-item">E-mail: info@jansenrental.com</li>
+        <p>Dank voor je Bezoek We willen je bedanken voor het bezoeken van onze informatieve pagina. 
+            We hopen dat je hier alle benodigde informatie vindt en dat je met plezier jouw volgende vakantie bij Jansen Rentals zult boeken!</p>
     </ul>
 </div>
 

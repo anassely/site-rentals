@@ -1,5 +1,4 @@
 
-
 <div class="container">
     <header class="d-flex justify-content-center py-3">
       <ul class="nav nav-pills">
@@ -25,8 +24,9 @@
                          } 
                          //end foreachloop alvast voor je neergezet ?>  
                         </ul>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="info.php">info</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="info.php">infopagina</a></li>
                 </li>
       </ul>
     </header>
   </div>
+ 
