@@ -38,6 +38,14 @@
     <!-- Voettekst -->
     <footer class="bg-light text-center p-3 mt-5">
         <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         &copy; 2023 Jansen Rental
     </footer>
 
