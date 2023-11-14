@@ -1,8 +1,9 @@
-<section>
+
+
     <div class="container mt-4 mb-1">
     <p>
         <!-- toggle knop voor de filter -->
-        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">
+        <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter" >
         Filter op faciliteiten</button>
     </p>
         <div class="row">
