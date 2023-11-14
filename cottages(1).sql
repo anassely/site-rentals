@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `cottages`
+-- Database: `huisjes`
 --
 
 -- --------------------------------------------------------
@@ -48,7 +48,7 @@ INSERT INTO `additions` (`addition_id`, `addition_name`, `addition_price`) VALUE
 -- --------------------------------------------------------
 
 --
--- Tabelstructuur voor tabel `cottages`
+-- Tabelstructuur voor tabel `huisjes`
 --
 
 CREATE TABLE `cottages` (
