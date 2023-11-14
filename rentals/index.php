@@ -1,4 +1,3 @@
-
 <?php
 include 'includes/database.php';
 include 'includes/functions.php';
@@ -10,36 +9,22 @@ include 'header.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+    <title>Jansen Rentals</title>
 </head>
 <body>
-<img ID src="images/jansen.png">
+
 <header>
+    <div class="container">
         <h1>Jansen Rentals</h1>
-        <br>
-        <BR>
-        <BR>
-        <BR>
-        <BR>
-        <BR>
-        <p1>welkom op onze site </p>
-    </header>
+        <p>huizen voor een betaalbare prijs</p>
+        
+    </div>
+</header>
 
-   
 
-    <section>
-        <div class="container mt-4">
-            <div class="row">
-                <!-- Hier komt de PHP-code voor het tonen van huisjes -->
-            </div>
-        </div>
-    </section>
-
-    
 </body>
-</html>
 <?php
 include 'footer.php';
 ?>
-</body>
 </html>
