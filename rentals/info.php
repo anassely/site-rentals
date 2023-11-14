@@ -23,10 +23,12 @@ include 'header.php';
     <div class="card">
       <!-- <img src="/w3images/team1.jpg" alt="Jane" style="width:100%"> -->
       <div class="container">
-        <h2>Jane Doe</h2>
+        <h2>Jansen de Licht</h2>
         <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
+        <p>Het is met groot genoegen dat ik je welkom heet bij Jansen rentals. Als CEO ben ik trots op het voorrecht om ons bedrijf te leiden in een tijdperk van voortdurende groei, innovatie en toewijding aan uitmuntendheid.</p>
+        <br>
+        <br>
+        <p>Jans@rental.com</p>  
       </div>
     </div>
   </div>
@@ -35,10 +37,10 @@ include 'header.php';
     <div class="card">
       <!-- <img src="/w3images/team2.jpg" alt="Mike" style="width:100%"> -->
       <div class="container">
-        <h2>Mike Ross</h2>
+        <h2>Mike De Vaart </h2>
         <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
+        <p>Ik ben verheugd je te verwelkomen bij Jansen rentals, waar artistieke expressie en creativiteit de kern vormen van wie we zijn. Als Art Director van dit dynamische team, ben ik gepassioneerd door het vormgeven van visuele verhalen die niet alleen de aandacht trekken, maar ook emoties oproepen en blijvende indrukken achterlaten.</p>
+        <p>mike@rentals.com</p>
       </div>
     </div>
   </div>
@@ -47,11 +49,17 @@ include 'header.php';
     <div class="card">
       <!-- <img src="/w3images/team3.jpg" alt="John" style="width:100%"> -->
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
+        <h2>John Pork</h2>
+        <p class="title">Human Resource</p>
+        <p>Als Human Resource-team bij Jansen rentals heten wij je van harte welkom. Wij spelen een cruciale rol in het vormgeven van een inclusieve, ondersteunende en stimulerende werkomgeving waarin talent kan bloeien en onze bedrijfscultuur wordt versterkt.</p>
+        <br>
+        <p>john@rentals.com</p>
       </div>
     </div>
   </div>
 </div>
+<?php
+include 'footer.php';
+?>
+</body>
+</html>
