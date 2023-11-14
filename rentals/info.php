@@ -4,7 +4,7 @@ include 'includes/functions.php';
 include 'header.php';
 
 
-// Achtergrondafbeelding variabele
+// Achtergrondafbeelding 
 ?>
 <br>
 <head>
@@ -30,7 +30,6 @@ include 'header.php';
 <div class="row">
   <div class="column">
     <div class="card">
-      <!-- <img src="/w3images/team1.jpg" alt="Jane" style="width:100%"> -->
       <div class="container">
         <h2>Jansen de Licht</h2>
         <p class="title">CEO & Founder</p>
@@ -44,7 +43,7 @@ include 'header.php';
 
   <div class="column">
     <div class="card">
-      <!-- <img src="/w3images/team2.jpg" alt="Mike" style="width:100%"> -->
+
       <div class="container">
         <h2>Mike De Vaart </h2>
         <p class="title">Art Director</p>
@@ -56,7 +55,6 @@ include 'header.php';
 
   <div class="column">
     <div class="card">
-      <!-- <img src="/w3images/team3.jpg" alt="John" style="width:100%"> -->
       <div class="container">
         <h2>John Pork</h2>
         <p class="title">Human Resource</p>

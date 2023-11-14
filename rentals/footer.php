@@ -1,7 +1,7 @@
 <!-- footer -->
 <body>
     
-<center>
+
 <section>
 <div class="container">
   <footer class="py-3 my-4">
@@ -16,7 +16,6 @@
   </footer>
 </div>
 </section>
-</center>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

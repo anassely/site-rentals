@@ -1,6 +1,5 @@
 <?php
 
-//haal de ingevulde velden van het formulier op
 $calcPrice = false;
 $numberNights = 0;
 $numberAdults = 0;
@@ -44,7 +43,6 @@ if(isset($_POST["additions"])){
 ?>
 <section>
 <div class="container mt-4 mb-4 bg-light border border-info">
-    <!-- het formulier vullen met de juiste velden -->
     <form name="calculate" method="post" action="huisjes.php?<?php echo 'cottageID=' . $huisjeid;?>">
         <div class="row px-4 py-4">
             <div class="col-12 mb-4">
@@ -88,7 +86,7 @@ if(isset($_POST["additions"])){
                                 <input type="number" class="form-control" id="AmountAdd_<?php echo $addition["addition_id"]; ?>" name="AmountAdd_<?php echo $addition["addition_id"]; ?>" value="<?php echo $AmountAdd[$addition["addition_name"]];?>">
                             </div>
                         </div>
-                    <?php } //end foreach ?>
+                    <?php }  ?>
 
             </div>
         </div>
