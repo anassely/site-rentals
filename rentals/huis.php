@@ -72,6 +72,12 @@ include 'includes/filter.php';
         </div>
     </div>
 </section>
+<br>
+<Br>
+<br>
+<br>
+<Br>
+<br>
 
 <?php
 include 'footer.php';

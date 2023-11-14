@@ -90,6 +90,8 @@ $tblcottage = getData($sql, "fetch");
         </div>
     </div>
 </section>
+
+
 <?php 
 include 'includes/calculateprice.php';
 include 'footer.php';

@@ -17,7 +17,7 @@ include 'header.php';
   <h1>Over Ons</h1>
   <br>
   <p>Welkom bij ons charmante toevluchtsoord, gelegen in een rustige en pittoreske omgeving. </p>
-  <p> Ons Airbnb-huisje biedt het perfecte toevluchtsoord voor reizigers die op zoek zijn naar comfort, stijl en gemak tijdens hun verblijf.</p>
+  <p> Onze Airbnb's bieden het perfecte toevluchtsoord voor reizigers die op zoek zijn naar comfort, stijl en gemak tijdens hun verblijf.</p>
 </div>
 <br>
 <br>
@@ -67,6 +67,13 @@ include 'header.php';
     </div>
   </div>
 </div>
+<br>
+<Br>
+<br>
+<br>
+<Br>
+<br>
+
 <?php
 include 'footer.php';
 ?>
