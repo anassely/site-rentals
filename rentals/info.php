@@ -3,8 +3,10 @@ include 'includes/database.php';
 include 'includes/functions.php';
 include 'header.php';
 
+
 // Achtergrondafbeelding variabele
 ?>
+<br>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +15,18 @@ include 'header.php';
 </head>
 <div class="about-section">
   <h1>Over Ons</h1>
+  <br>
   <p>Welkom bij ons charmante toevluchtsoord, gelegen in een rustige en pittoreske omgeving. </p>
   <p> Ons Airbnb-huisje biedt het perfecte toevluchtsoord voor reizigers die op zoek zijn naar comfort, stijl en gemak tijdens hun verblijf.</p>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <h2 style="text-align:center">Ons Team</h2>
+<br>
 <div class="row">
   <div class="column">
     <div class="card">

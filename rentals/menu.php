@@ -1,6 +1,6 @@
 
 <div class="container">
-    <header class="d-flex justify-content-center py-3">
+    <header class="d-flex justify-content-left py-3">
       <ul class="nav nav-pills">
       <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Home</a></li>
                 <li class="nav-item dropdown">

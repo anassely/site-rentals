@@ -1,7 +1,7 @@
-body {
+/* body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-  }
+  } */
   
   html {
     box-sizing: border-box;
@@ -27,7 +27,7 @@ body {
     padding: 50px;
     text-align: center;
     background-color: #474e5d;
-    color: white;
+    color: #fff ;
   }
   
   .container {
@@ -66,3 +66,4 @@ body {
       display: block;
     }
   }
+ 

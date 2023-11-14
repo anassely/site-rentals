@@ -10,7 +10,7 @@
             <div class="_collapse" id="collapseFilter">
                 <div class="card card-body">
                     <!--start filter form -->
-                    <form name="filter" id="filter" method="GET" action="index.php">
+                    <form name="filter" id="filter" method="GET" action="huis.php">
                         <?php
                             //de faciliteiten komen uit de database, tabel faciliteiten, we moeten de data dus ophalen
                             //gebruik de juiste query om de faciliteiten uit de database te halen
