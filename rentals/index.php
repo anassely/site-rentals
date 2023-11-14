@@ -29,16 +29,12 @@ include 'header.php';
       <ul class="nav nav-pills">
                   
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="huis.php">zie meer</a></li> 
-                </li>
-
-               
+                </li>      
       </ul>
     </header>
   </div>
  
 </header>
-
-
 </body>
 <br>
 <br>

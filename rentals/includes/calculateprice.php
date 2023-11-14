@@ -126,9 +126,9 @@ if($calcPrice == true){
         $additionNames = "Geen extra's geselecteerd!";
     }
 
-   //prijzen ophalen $tblCottage is gevuld in huisjes.php dus ik had het ook daar kunnen aanmaken, check of dit handig is
-    // $CottagePriceA = $tblCottage["cottage_price_a"];
-    // $CottagePriceC = $tblCottage["cottage_price_c"];
+   //prijzen ophalen $tbl is gevuld in huisjes.php dus ik had het ook daar kunnen aanmaken, check of dit handig is
+    // $PriceA = $tbl["_price_a"];
+    // $PriceC = $tbl["_price_c"];
 
     //prijs voor volwassenen
     $totalPriceA =  ($numberAdults * $numberNights) * $CottagePriceA;
