@@ -17,9 +17,22 @@ include 'header.php';
 <header>
     <div class="container">
         <h1>Jansen Rentals</h1>
-        <p>huizen voor een betaalbare prijs</p>
-        
+        <p>Air-Bnb's voor een betaalbare en goedkope prijs </p>
+        <img src="images/ossos2.png">
     </div>
+    
+<div class="container">
+    <header class="d-flex justify-content-top right py-3">
+      <ul class="nav nav-pills">
+                  
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="huis.php">zie meer</a></li> 
+                </li>
+
+               
+      </ul>
+    </header>
+  </div>
+ 
 </header>
 
 

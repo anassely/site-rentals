@@ -7,8 +7,12 @@
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="huis.php" class="nav-link px-2 text-muted">huisjes</a></li>
+      <li class="nav-item"><a href="info.php" class="nav-link px-2 text-muted">infopagina</a></li>
     </ul>
-    <p class="text-center text-muted">&copy; Made By anass</p>
+    <p class="text-center text-muted">&copy; Made By Anass el Yahiaoui</p>
+    <p class="text-center text-muted">Anasselyahiaoui6@gmail.com </p>
+    <p class="text-center text-muted">020 358 855</p>
   </footer>
 </div>
 </section>
