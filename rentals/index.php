@@ -12,15 +12,7 @@ include 'includes/filter.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-           background-image: url(“airbnb.jpg”);
-            background-size: cover; /* Om de achtergrondafbeelding volledig te bedekken /
-            background-repeat: no-repeat; / Voorkomt herhaling van de achtergrondafbeelding /
-            background-attachment: fixed; / Behoudt de achtergrond op zijn plaats tijdens het scrollen /
-            / Andere CSS-stijlen hier... */
-        }
-    </style>
+
     <!-- Andere meta tags, links, scripts... -->
 </head>
 <body>

@@ -1,5 +1,4 @@
 
-
     <div class="container mt-4 mb-1">
     <p>
         <!-- toggle knop voor de filter -->
