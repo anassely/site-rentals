@@ -19,7 +19,7 @@ include 'header.php';
         <h1>Jansen Rentals</h1>
         <p>Air-Bnb's voor een betaalbare en goedkope prijs </p>
         
-        <img src= 'images/ossos2.png' height=500 style='vertical-align: middle; float: right;'/>
+        <img src= 'images/ossos2.png' height=400 style='vertical-align: middle; float: right;'/>
 </div>
         
     </div>
@@ -56,7 +56,6 @@ include 'header.php';
 <br>
 <br>
 <br>
-
 <?php
 include 'footer.php';
 ?>

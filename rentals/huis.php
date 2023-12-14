@@ -4,7 +4,7 @@ include 'includes/functions.php';
 include 'header.php';
 include 'includes/filter.php';
 
-// Achtergrondafbeelding variabele
+// Achtergrondafbeelding 
 ?>
 
 <!DOCTYPE html>
