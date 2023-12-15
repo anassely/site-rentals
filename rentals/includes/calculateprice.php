@@ -16,7 +16,6 @@ $AmountAdd = [];
 $CottagePriceA = $tblcottage['cottage_price_a'];
 $CottagePriceC = $tblcottage["cottage_price_c"];
 
-//Checken of velden van de form calculate ingevuld zijn en iemand de prijs wil berekenen
 //en natuurlijk variabelen de juiste waarde geven
 
 $calcPrice = false;
@@ -115,7 +114,7 @@ if($calcPrice == true){
         //komma toevoegen als het niet het laatste item is
         if($counter < count($selAdditions)) {$additionNames .= ", ";}
 
-        //CHECK de totaalprijs van alle additions bij elkaar berekenen, nu maar even alleen een neerzetten nog toevoegen dat hij ze allemaal optelt
+        // de totaalprijs van alle additions bij elkaar berekenen, nu maar even alleen een neerzetten nog toevoegen dat hij ze allemaal optelt
         $totalAdditions = $value * $AmountAdd[$key];
         $totalextra += $totalAdditions;
 
@@ -127,15 +126,15 @@ if($calcPrice == true){
         $additionNames = "Geen extra's geselecteerd!";
     }
 
-   //prijzen ophalen $tbl is gevuld in huisjes.php dus ik had het ook daar kunnen aanmaken, check of dit handig is
+
     // $PriceA = $tbl["_price_a"];
     // $PriceC = $tbl["_price_c"];
 
     //prijs voor volwassenen
     $totalPriceA =  ($numberAdults * $numberNights) * $CottagePriceA;
-    //CHECK prijs voor kinderen, berekening nog maken!
+    // prijs voor kinderen, berekening 
     $totalPriceC =  ($numberChilds * $numberNights) * $CottagePriceC;
-    //CHECK alle additions * aantal dagen/nachten nog berekenen
+    // alle additions * aantal dagen/nachten 
     $totalPriceAd =  $totalextra * $numberNights;
 
     ?>
@@ -154,7 +153,7 @@ if($calcPrice == true){
                     </thead>
                     <tbody>
                         <tr>
-                            <!-- CHECK het is eigenlijk wel handig om de prijs goed op te schrijven met een , en twee cijfers achter de komma, ik hebt het hier alvast neergezet maar moet nog wel de functie FormatNumber() afmaken, dit geeft nu natuurlijk een foutmelding... -->
+                
                             <td>Prijs volwassenen (<?php echo $numberAdults ." x &euro; ".  number_format($CottagePriceA, 2) . " x ". $numberNights; ?>)</td>
                             <td>&euro; <?php echo $totalPriceA ?></td>
                         </tr>
