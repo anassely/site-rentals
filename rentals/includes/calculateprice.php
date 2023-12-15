@@ -1,4 +1,5 @@
 <?php
+// hier maak je de waarde van de variabelen
 
 $calcPrice = false;
 $numberNights = 0;
@@ -15,12 +16,12 @@ $AmountAdd = [];
 $CottagePriceA = $tblcottage['cottage_price_a'];
 $CottagePriceC = $tblcottage["cottage_price_c"];
 
-//Checken of velden van de form calculate gesubmit zijn en iemand de prijs wil berekenen
+//Checken of velden van de form calculate ingevuld zijn en iemand de prijs wil berekenen
 //en natuurlijk variabelen de juiste waarde geven
 
 $calcPrice = false;
 if(isset($_POST["calculate"])){
-    $calcPrice = true;
+    $calcPrice = true;          //ingevuld
 }
 
 if(isset($_POST["numberNights"])){
@@ -176,7 +177,7 @@ if($calcPrice == true){
         </div>
     </div>
 </section>
-<?php } //einde if statement ?>
+<?php }  ?>
 
                             
 

@@ -4,7 +4,8 @@ include 'includes/functions.php';
 include 'header.php';
 include 'includes/filter.php';
 
-// Achtergrondafbeelding 
+// alle includes samen zodat ze zichtbaar zijn op de site
+
 ?>
 
 <!DOCTYPE html>
@@ -14,9 +15,11 @@ include 'includes/filter.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Andere meta tags, links, scripts... -->
+
 </head>
-<body>
-<body style='background-image: url("airbnb.jpg")'>
+
+<!-- een SQL-query opgesteld op basis van een conditie. Als $filter false is, wordt een eenvoudige SELECT * FROM cottages uitgevoerd. -->
+
 <section>
     <div class="container mt-4">
         <div class="row">

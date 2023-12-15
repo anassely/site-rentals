@@ -4,7 +4,6 @@
 
 
 <?php
-// De programmeur is de isset gedeelte vergeten
 include 'includes/database.php';
 include 'includes/functions.php';
 include 'header.php';
@@ -14,16 +13,10 @@ if (isset($_GET['cottageID'])) {
     $huisjeid = $_GET['cottageID'];
 }
 
-
 $sql = 'select * from cottages where cottage_id = ' . $huisjeid;
 
-//echo $sql;
 
 $tblcottage = getData($sql, "fetch");
-
-// echo '<pre>';
-
-// var_dump($tblCottages);
 
 ?>
 

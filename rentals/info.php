@@ -3,8 +3,6 @@ include 'includes/database.php';
 include 'includes/functions.php';
 include 'header.php';
 
-
-// Achtergrondafbeelding 
 ?>
 <br>
 <head>
