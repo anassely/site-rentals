@@ -73,7 +73,7 @@
                             
                         <!-- de stbmit button, om het filteren te activeren en de form te submitten -->
                         <button type="submit" name="submit_filter" value="submit" class="btn btn-primary  mb-4 mt-2">Filter</button>
-                    </form><!-- end filter form -->
+                    </form>
                 </div>
             </div>
             </div>
@@ -82,7 +82,7 @@
 </section>
 
 <?php
-//aan de gebruiker laten zien waar hij op gefiltert heeft, de elementen staatn in de variabele $selection 
+
 if($filter == true){?>
 <section>
     <div class="container">
