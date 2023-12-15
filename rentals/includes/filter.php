@@ -1,7 +1,7 @@
 
     <div class="container mt-4 mb-1">
     <p>
-        <!-- toggle knop filter -->
+        <!--  knop filter -->
         <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter" >
         Filter op faciliteiten</button>
     </p>
@@ -12,9 +12,10 @@
                     <!--start filter form -->
                     <form name="filter" id="filter" method="GET" action="huis.php"> <!--stuurt via de button-->
                         <?php
+
                             //de faciliteiten komen uit de database, tabel faciliteiten, we moeten de data dus ophalen
-                            //gebruik de juiste query om de faciliteiten uit de database te halen
-                            //Je moet aan de functie getData 2 waardes meegeven: de sql statement, een rij of alle rijen (fetch, fetchAll), de functie staat boven aan de pagina, bekijk hem goed!
+                            //gebruik de juiste query om de faciliteiten uit de database  halen
+
                             
                             $tblFacilities = getData("SELECT * FROM `facilities`", "fetchAll");
 
@@ -24,18 +25,17 @@
                             //hiervoor moeten we checken of het formulier filter is gesubmit en er faciliteiten zijn aangevinkt
                             
                             if(isset($_GET["formFacilities"])){
-                                //zet alle geselecteerde waardes in een array
                                 $arrFrmFilter = $_GET["formFacilities"];
 
-                                //als de gebruiker een filter heeft gebruikt is dat wel zo netjes om te laten zien, hiervoor maken we een lege variabele $selection aan die we in de foreach loop vullen en dan laten terug komen in de pagina onder de filter
+                
                                 $selection = "";
-                                //ook even een variabele $filter aanmaken, deze gebruiken we om te checken of er wel (true) of niet (false) gefiltert wordt
+                                // variabele $filter , checken of er wel (true) of niet (false) gefiltert wordt
                                 $filter = true;
                             }
                             else {
 
 
-                                //lege waarde aanmaken voor $arrFrmFilter anders krijg je een foutmelding als er niks gefiltert wordt
+                                //lege waarde  voor $arrFrmFilter anders krijg je een foutmelding als er niks gefiltert wordt
                                 $arrFrmFilter = [];
                                 $filter = false;
                                
@@ -46,7 +46,7 @@
                             //we gebruiken een variabele $counter zodat er geen , na het laatste item komt
                             $counter = 0;
 
-                            foreach($tblFacilities as $row) { //loop door de array 
+                            foreach($tblFacilities as $row) { 
 
                                 //we moeten ook nog checken of dit een geselecteerde waarde is in de filter zodat we de checkbox weer aanzetten
                                 //Dit doen we door te zoeken of de waarde van deze faciliteit in de array $arrFormFac voorkomt, 
@@ -63,13 +63,13 @@
                                 }
                             ?>
 
-                                <!-- hier de html voor een faciliteit waarop gefiltert kan worden, met de naam em id van de faciliteiten die in de database staan -->    
+                                <!-- een faciliteit waarop gefiltert kan worden, met de naam em id van de faciliteiten die in de database staan -->    
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox" value="<?php echo $row["facility_id"];?>" id="<?php echo $row["facility_id"];?>" name="formFacilities[]" <?php if(in_array($row["facility_id"], $arrFrmFilter)){echo "checked";}?>>
                                     <label class="form-check-label" for="<?php echo $row["facility_id"];?>"><?php echo $row["facility_name"];?></label>
                                 </div>
 
-                            <?php } //einde van de loop ?>
+                            <?php } ?>
                             
                         <!-- de stbmit button, om het filteren te activeren en de form te submitten -->
                         <button type="submit" name="submit_filter" value="submit" class="btn btn-primary  mb-4 mt-2">Filter</button>
